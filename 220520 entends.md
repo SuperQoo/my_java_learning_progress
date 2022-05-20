@@ -1,9 +1,5 @@
 2022-05-20 SUNNY  
-#### extends 继承
-
-  
-  
-  
+#### extends 继承  
     
 在父类中定义共有属性以及共有方法，子类可以继承使用  
 假设父类是学生类，学生的名字、年龄、分数是共有属性  
@@ -34,10 +30,10 @@ public class Student {  //父类
 ```  
 Pupil类代表小学生，小学数学考试是小学生类的特有方法。
 ```
-public class ** Pupil extends Student ** {
+public class Pupil extends Student {
 //    写它特有的属性及方法
     public void doTest(){
-        System.out.println("小学生 "+ name +" 正在考** 小学数学 **");
+        System.out.println("小学生 "+ name +" 正在考小学数学");
     }
 }
 ```
@@ -46,7 +42,7 @@ Graduate类代表大学生，大学数学考试是大学生类的特有方法。
 public class Graduate extends Student {
 //  写其特有属性 特有方法
     public void doTest(){
-        System.out.println("研究生 "+ name +" 正在考** 大学数学 **");
+        System.out.println("研究生 "+ name +" 正在考大学数学");
     }
 }
 ```
